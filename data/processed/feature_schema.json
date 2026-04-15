@@ -1,0 +1,98 @@
+[
+  {
+    "name": "amount",
+    "dtype": "float64",
+    "description": "Feature: amount",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "hour",
+    "dtype": "int32",
+    "description": "Feature: hour",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "day_of_week",
+    "dtype": "int32",
+    "description": "Feature: day_of_week",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "is_weekend",
+    "dtype": "int64",
+    "description": "Feature: is_weekend",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "month",
+    "dtype": "int32",
+    "description": "Feature: month",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "amount_log",
+    "dtype": "float64",
+    "description": "Feature: amount_log",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "amount_scaled",
+    "dtype": "float64",
+    "description": "Feature: amount_scaled",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "amount_log_scaled",
+    "dtype": "float64",
+    "description": "Feature: amount_log_scaled",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "merchant_id_MCC002",
+    "dtype": "int64",
+    "description": "Feature: merchant_id_MCC002",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "merchant_id_MCC003",
+    "dtype": "int64",
+    "description": "Feature: merchant_id_MCC003",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "category_food",
+    "dtype": "int64",
+    "description": "Feature: category_food",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "category_retail",
+    "dtype": "int64",
+    "description": "Feature: category_retail",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "amount_hour_interaction",
+    "dtype": "float64",
+    "description": "Feature: amount_hour_interaction",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "amount_rolling_mean",
+    "dtype": "float64",
+    "description": "Feature: amount_rolling_mean",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "amount_rolling_std",
+    "dtype": "float64",
+    "description": "Feature: amount_rolling_std",
+    "how_computed": "Engineered from original data"
+  },
+  {
+    "name": "amount_rolling_max",
+    "dtype": "float64",
+    "description": "Feature: amount_rolling_max",
+    "how_computed": "Engineered from original data"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "algorithm": "IsolationForest",
+  "problem_type": "anomaly_detection",
+  "primary_metric": "f1_score",
+  "primary_value": 0.6666666666666666,
+  "precision": 0.5,
+  "recall": 1.0,
+  "f1_score": 0.6666666666666666,
+  "auc_roc": 0.0,
+  "anomaly_rate": 0.13333333333333333,
+  "train_size": 70,
+  "val_size": 15,
+  "test_size": 15,
+  "feature_count": 16,
+  "best_params": {
+    "n_estimators": 100,
+    "contamination": 0.1,
+    "random_state": 42
+  }
+}

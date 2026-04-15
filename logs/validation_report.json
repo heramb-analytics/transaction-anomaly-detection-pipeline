@@ -1,0 +1,56 @@
+{
+  "passed": 12,
+  "total": 12,
+  "checks": {
+    "schema_match": {
+      "passed": true,
+      "error": null
+    },
+    "no_nulls_target": {
+      "passed": true,
+      "error": null
+    },
+    "no_duplicate_ids": {
+      "passed": true,
+      "error": null
+    },
+    "value_ranges_valid": {
+      "passed": true,
+      "error": null
+    },
+    "dtype_consistency": {
+      "passed": true,
+      "error": null
+    },
+    "class_balance": {
+      "passed": true,
+      "error": null
+    },
+    "feature_variance": {
+      "passed": true,
+      "error": null
+    },
+    "no_constant_columns": {
+      "passed": true,
+      "error": null
+    },
+    "no_temporal_leakage": {
+      "passed": true,
+      "error": null
+    },
+    "outlier_fraction_ok": {
+      "passed": true,
+      "error": null
+    },
+    "row_count_ok": {
+      "passed": true,
+      "error": null
+    },
+    "target_distribution_ok": {
+      "passed": true,
+      "error": null
+    }
+  },
+  "dataset_size": 100,
+  "feature_count": 19
+}

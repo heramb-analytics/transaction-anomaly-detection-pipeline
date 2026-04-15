@@ -1,0 +1,37 @@
+{
+  "timestamp": "2026-04-15T23:34:22.300797",
+  "rows_raw": 5,
+  "rows_after_expansion": 100,
+  "rows_clean": 100,
+  "columns": [
+    "transaction_id",
+    "timestamp",
+    "merchant_id",
+    "amount",
+    "category",
+    "is_anomaly"
+  ],
+  "dtypes": {
+    "transaction_id": "object",
+    "timestamp": "datetime64[ns]",
+    "merchant_id": "object",
+    "amount": "float64",
+    "category": "object",
+    "is_anomaly": "int64"
+  },
+  "null_counts": {
+    "transaction_id": 0,
+    "timestamp": 0,
+    "merchant_id": 0,
+    "amount": 0,
+    "category": 0,
+    "is_anomaly": 0
+  },
+  "checks_passed": 9,
+  "checks_failed": 1,
+  "total_checks": 10,
+  "target_distribution": {
+    "normal": 98,
+    "anomaly": 2
+  }
+}
